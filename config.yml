@@ -1,0 +1,11 @@
+#Le mode permet de definir la maniere dont va gerer le plugin pour l'envoie des suggestions des commandes. 
+#Il y a deux modes: BLACKLIST et SHOWONLY
+#BLACKLIST masque les commandes de la liste ci-dessous des suggestions aux joueurs ne possedant pas la permission batc.bypass
+#SHOWONLY permet de masquer la totalite des commandes et envoyer une liste customisee de suggestions de commandes
+#Attention, ce plugin agis uniquement sur les commande du proxy et non sur celles de vos serveurs spigot/paper
+#Pour spigot/paper, il est conseille d'utiliser PL-Hide : https://www.spigotmc.org/resources/plugin-hide-1-13-1-15-anti-tabcomplete.68767/
+mode: BLACKLIST
+commands:
+  - ban
+  - mute
+  - kick
